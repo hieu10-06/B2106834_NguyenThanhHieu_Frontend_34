@@ -3,7 +3,7 @@ import ContactBook from "@/views/ContactBook.vue";
 const routes = [
     {
         path: "/",
-        name: "ContactBook",
+        name: "contactbook",
         component: ContactBook,
     },
 ];

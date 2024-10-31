@@ -19,14 +19,15 @@ export default {
             <strong>Địa chỉ:</strong>
             {{ contact.address }}
         </div>
-        <div>
-            <strong>Điện thoại</strong>
+        
+        <div class="p-1">
+            <strong>Điện thoại:</strong>
             {{ contact.phone }}
         </div>
-        <div class = "p-1">
-            <strong>Liên hệ yêu thích: &nbsp;</strong>
+        <div class="p-1">
+            <strong>Liên hệ yêu thích:&nbsp;</strong>
             <i v-if="contact.favorite" class="fas fa-check"></i>
-            <i v-else class = "fas fa-times"></i>
+            <i v-else class="fas fa-times"></i>
         </div>
     </div>
 </template>

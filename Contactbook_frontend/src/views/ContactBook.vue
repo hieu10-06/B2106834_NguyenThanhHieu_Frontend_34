@@ -83,7 +83,7 @@ export default {
             return this.filteredContacts.length;
         },
     },
-    mothods: {
+    methods: {
         async retrieveContacts() {
             try {
                 this.contacts = await ContactService.getAll();
